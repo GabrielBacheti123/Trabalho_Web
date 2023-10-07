@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/general-style.css">
+    <link rel="stylesheet" href="estilo/contato.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="titulo-principal">
+            <h1>
+                CONTATO 
+            </h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-inicial">
+            <a href="Home.html">HOME</a>
+            <a href="curriculo.html">CURRICULO</a>
+            <a href="github.html">GITHUB</a>
+            <a href="serviços.html">SERVICOS</a>
+            
+        </div>
+    </nav>
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <title>Formulário HTML</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <form class="formulario" method="post"> 
+            <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+            
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+            
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+    
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>        
+            <div class="field radiobox">
+                <span>Tipo De Pessoa</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Pessoa Fisica</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Pessoa Jurídica</label>
+            </div>
+            <form>
+                Data e hora de atendimento: <input type="datetime-local" name="bdaytime">
+            </form>
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+    
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+    </body>
+    </html>
+  
+</body>
+</html>
